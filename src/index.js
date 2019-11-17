@@ -25,6 +25,7 @@ Order.defaultProps = {
 Order.propTypes = {
   cone: PropTypes.bool,
   size: PropTypes.string 
+  scoops: PropTypes.array.isRequired
 };
 
 
