@@ -16,3 +16,8 @@ class Order extends React.Component {
     );
   }
 }
+
+Order.defaultProps = {
+  cone: true,
+  size: 'regular'
+};
